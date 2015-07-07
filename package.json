@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/therebelrobot/diff-compare/issues"
   },
-  "homepage": "https://github.com/therebelrobot/diff-compare#readme"
+  "homepage": "https://github.com/therebelrobot/diff-compare#readme",
+  "dependencies": {
+    "diff": "^1.4.0",
+    "lodash": "^3.10.0",
+    "trace-debug-log": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
 }
