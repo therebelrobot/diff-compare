@@ -1,6 +1,6 @@
 {
   "name": "diff-compare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A line-by-line diffing tool that returns adjusted comparison text",
   "main": "lib/diff-compare.js",
   "scripts": {
@@ -18,15 +18,12 @@
     "code"
   ],
   "author": "Trent Oswald <trentoswald@therebelrobot.com> (@therebelrobot)",
-  "license": "ISC",
+  "license": "BSD + ISC",
   "bugs": {
     "url": "https://github.com/therebelrobot/diff-compare/issues"
   },
   "homepage": "https://github.com/therebelrobot/diff-compare#readme",
   "dependencies": {
-    "diff": "^1.4.0",
-    "lodash": "^3.10.0",
-    "trace-debug-log": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
