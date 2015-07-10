@@ -2,7 +2,8 @@
 
 Work in progress.
 
-A javascript library for diffing text and generating corresponding HTML views.  This is a fork and derivative of [ForbesLindesay/jsdifflib](https://github.com/ForbesLindesay/jsdifflib), which is in turn a fork of [cemerick/jsdifflib](https://github.com/cemerick/jsdifflib)
+A javascript library for diffing text and generating corrected and annotated text.  This is a fork and derivative of
+[ForbesLindesay/jsdifflib](https://github.com/ForbesLindesay/jsdifflib), which is in turn a fork of [cemerick/jsdifflib](https://github.com/cemerick/jsdifflib)
 
 [![NPM version](https://img.shields.io/npm/v/diff-compare.svg)](http://badge.fury.io/js/diff-compare)
 
