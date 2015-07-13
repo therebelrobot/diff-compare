@@ -23,24 +23,13 @@ diff-compare is a Javascript library that provides:
 ```js
 var diff = require('diff-compare');
 
-function getDiff(baseTextRaw, newTextRaw) {
-  // build the diff view and return a DOM node
-  return diff.buildView({
-      baseText: baseText,
-      newText: newText,
-      // set the display titles for each resource
-      baseTextName: "Base Text",
-      newTextName: "New Text",
-      contextSize: 10,
-      //set inine to true if you want inline
-      //rather than side by side diff
-      inline: true
-  });
-}
+var adjustedText = diff.build({
+  baseText: baseText,
+  newText: newText
+})
 
-document.body.appendChild(getDiff('source', 'destination'));
 ```
 
 ## License
 
-  BSD
+  Dual License: BSD + ISC

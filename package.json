@@ -4,7 +4,11 @@
   "description": "A line-by-line diffing tool that returns adjusted comparison text",
   "main": "lib/diff-compare.js",
   "scripts": {
-    "test": "mocha"
+    "pretest": "standard && echint",
+    "test": "mocha",
+    "posttest": "npm run coverage",
+    "coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+    "codeclimate": "codeclimate < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -23,11 +27,14 @@
     "url": "https://github.com/therebelrobot/diff-compare/issues"
   },
   "homepage": "https://github.com/therebelrobot/diff-compare#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.0.0",
+    "codeclimate-test-reporter": "^0.1.0",
+    "echint": "^1.4.0",
     "istanbul": "^0.3.17",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "standard": "^4.5.3",
+    "trace-debug-log": "^1.0.1"
   }
 }
