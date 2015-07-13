@@ -30,8 +30,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -66,8 +66,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -101,8 +101,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -151,8 +151,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -202,8 +202,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -253,8 +253,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -306,8 +306,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -358,8 +358,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -441,8 +441,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -524,8 +524,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -592,8 +592,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')
@@ -660,8 +660,8 @@ describe('diff-compare', function () {
     }]
 
     var adjusted = diff.build({
-      baseTextLines: a,
-      newTextLines: b
+      base: a,
+      compare: b
     })
     expect(adjusted).to.be.an('object')
     expect(adjusted.base).to.be.an('array')

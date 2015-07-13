@@ -1,6 +1,6 @@
 {
   "name": "diff-compare",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "A line-by-line diffing tool that returns adjusted comparison text",
   "main": "lib/diff-compare.js",
   "scripts": {
