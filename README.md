@@ -37,8 +37,8 @@ var adjustedText = diff.build({
 ```
 
 ## Changelog
-### [Unreleased][https://github.com/therebelrobot/diff-compare/compare/release/v1.0.2...master]
-*branch: [`develop`](https://github.com/therebelrobot/diff-compare)
+### [Unreleased](https://github.com/therebelrobot/diff-compare/compare/release/v1.0.2...master)
+*branch: [`master`](https://github.com/therebelrobot/diff-compare)
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
