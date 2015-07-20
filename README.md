@@ -48,7 +48,7 @@ var adjustedText = diff.build({
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
-| Added | []() | Added badges and changelog to Readme |
+| Added | [`e66bd85`](https://github.com/therebelrobot/diff-compare/commit/e66bd852fd5be81e7764634f8cec218c724cf05b) | Added badges and changelog to Readme |
 
 ### [v1.0.1](https://github.com/therebelrobot/diff-compare/compare/release/v1.0.0...release/v1.0.1) | 2015-07-20
 *branch: [release/v1.0.1](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.1)*
