@@ -38,20 +38,20 @@ var adjustedText = diff.build({
 
 ## Changelog
 ### [Unreleased](https://github.com/therebelrobot/diff-compare/compare/release/v1.0.2...master)
-*branch: [`master`](https://github.com/therebelrobot/diff-compare)
+*branch: [`master`](https://github.com/therebelrobot/diff-compare)*
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
 
 ### [v1.0.2](https://github.com/therebelrobot/diff-compare/compare/release/v1.0.1...release/v1.0.2) | 2015-07-20
-*branch: [release/v1.0.2](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.2)*
+*branch: [`release/v1.0.2`](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.2)*
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
 | Added | [`e66bd85`](https://github.com/therebelrobot/diff-compare/commit/e66bd852fd5be81e7764634f8cec218c724cf05b) | Added badges and changelog to Readme |
 
 ### [v1.0.1](https://github.com/therebelrobot/diff-compare/compare/release/v1.0.0...release/v1.0.1) | 2015-07-20
-*branch: [release/v1.0.1](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.1)*
+*branch: [`release/v1.0.1`](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.1)*
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
@@ -60,7 +60,7 @@ var adjustedText = diff.build({
 | Fixed | [`a371e21`](https://github.com/therebelrobot/diff-compare/commit/a371e214bc3cf65b541fb0ece0344e631323b030) | Code Climate CLI issue |
 
 ### [v1.0.0](https://github.com/therebelrobot/diff-compare/commit/46d3bd2f9f21770970094a8c35bea8e62cf4356d) | 2015-07-14
-*branch: [release/v1.0.0](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.0)*
+*branch: [`release/v1.0.0`](https://github.com/therebelrobot/diff-compare/tree/release/v1.0.0)*
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
