@@ -36,6 +36,27 @@ var adjustedText = diff.build({
   newText: newText
 })
 
+// {
+//   base: [{
+//       originalLine: 1,
+//       value: 'abc',
+//       type: 'delete'
+//     }, {
+//       originalLine: 2,
+//       value: 'def',
+//       type: 'equal'
+//     }],
+//   compare: [{
+//       originalLine: null,
+//       value: '',
+//       type: 'delete'
+//     }, {
+//       originalLine: 1,
+//       value: 'def',
+//       type: 'equal'
+//     }]
+// }
+
 ```
 
 ## Changelog
