@@ -13,6 +13,8 @@
 A javascript library for diffing text and generating corrected and annotated text.  This is a fork and derivative of
 [ForbesLindesay/jsdifflib](https://github.com/ForbesLindesay/jsdifflib), which is in turn a fork of [cemerick/jsdifflib](https://github.com/cemerick/jsdifflib)
 
+The main difference between this lib and [ForbesLindesay/jsdifflib](https://github.com/ForbesLindesay/jsdifflib) is `jsdifflib` returns an HTML node for direct embedding (a table no less), and this module just returns the adjusted text in a JS object. I was implementing a separate view system, so I just needed the data alone.
+
 ## Installation
 
     npm install diff-compare
