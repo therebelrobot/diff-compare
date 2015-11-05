@@ -66,7 +66,7 @@ var adjustedText = diff.build({
 
 | Type | Link | Description |
 | ---- | ---- | ----------- |
-| Added | | Initial Release |
+| Added | | Initial Release - Converted HTML output to pure JS output |
 
 
 ## License
